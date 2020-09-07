@@ -1,0 +1,409 @@
+/* Common CSS starts here */
+@font-face 
+{
+  font-family: Poppins;
+  src: url(../font/Poppins-Regular.ttf);
+}
+body 
+{
+  font-family: Poppins;
+  font-size:17px;
+}
+section 
+{
+  padding: 60px 0;
+}
+.section-bg 
+{
+  background-color: #f7f7f7;
+}
+/* Common CSS ends here */
+
+/* Top header CSS starts here */
+#topbar 
+{
+  background: #000;
+  padding: 15px 0;
+  font-size: 15px;
+}
+.float-left 
+{
+  float: left!important;
+}
+#topbar .contact-info a 
+{
+  color: #fff;
+  text-decoration:none;
+}
+#topbar .contact-info a:hover, #topbar .contact-info i:hover 
+{
+  color:#ff4f5a;
+}
+#topbar .contact-info i 
+{
+  color: #fff;
+  padding: 4px;
+}
+#topbar .contact-info i:first-child
+{
+  padding:4px 4px 4px 0px;
+}
+.float-right 
+{
+  float: right!important;
+}
+#topbar .social-links a 
+{
+  color: #fff;
+  padding: 4px 12px;
+  display: inline-block;
+  line-height: 1px;
+}
+.facebook:hover
+{
+  color:#3B5998 !important;
+}
+.twitter:hover
+{
+  color:#55ACEE !important;
+}
+.linkedin:hover
+{
+  color:#007bb5 !important;
+}
+@media (min-width: 768px)
+{
+  .navbar-right 
+  {
+    margin-right: 0;
+  }
+}
+@media (max-width:767px)
+{
+  #topbar
+  {
+    display:none;
+  }
+}
+/* Top header CSS ends here */
+
+/* Navigation CSS starts here */
+.navbar-default
+{
+  background-color: #fff;
+  border-color: transparent; 
+}
+.navbar-brand
+{
+  font-size:25px;
+  padding:35px 15px;
+}
+.navbar
+{
+  min-height:90px;
+  margin-bottom:0;
+}
+.navbar-toggle
+{
+  margin:25px 15px;
+}
+.navbar-default .navbar-brand, .navbar-default .navbar-nav li a
+{
+  color:#000;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav li a:hover
+{
+  color:#ff4f5a;
+}
+.navbar-toggle, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover
+{
+  background:#000;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.fixed
+{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #ff4f5a;
+  z-index: 99999;
+  border-radius: 0px;
+}
+.white_color
+{
+  color:#fff !important;
+}
+.white_background
+{
+  background:#fff !important;
+}
+.black_background
+{
+  background:#000 !important;
+}
+.menu_last_child
+{
+  padding-right:0px !important;
+}
+.carousel-control .fa
+{
+  position:absolute;
+  top:50%;
+}
+#navbar ul li.active a 
+{
+  color: #000 !important;
+  background:transparent;
+}
+@media (min-width: 768px)
+{
+  .navbar-nav li a
+  {
+    padding:35px 15px;
+  }
+}
+/* Navigation CSS ends here */
+
+/* About CSS starts here */
+.about .container 
+{
+  box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
+}
+.about img 
+{
+  padding: 15px 0;
+}
+.about .about-content 
+{
+  padding: 40px;
+}
+.section-title 
+{
+  text-align: center;
+  padding-bottom: 10px;
+}
+.section-title h2 
+{
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #ff4f5a;
+}
+.about .section-title p 
+{
+  text-align: left;
+}
+.read_more
+{
+  background: #ff4f5a;
+  color: #fff;
+  padding: 10px 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  border:1px solid #ff4f5a;
+}
+.read_more:hover, .read_more:focus
+{
+  background:#fff;
+  color:#ff4f5a;
+  text-decoration:none;
+  border:1px solid #ff4f5a;
+}
+/* About CSS ends here */
+
+/* Counter CSS ends here */
+.counts .count-box 
+{
+  box-shadow: 0px 0 16px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  background: #fff;
+  margin-bottom: 0px;
+}
+.counts .count-box i 
+{
+  display: block;
+  font-size: 64px;
+  margin-bottom: 15px;
+}
+.counts .count-box span 
+{
+  font-size: 42px;
+  display: block;
+  font-weight: 700;
+  color: #ff4f5a;
+}
+/* Counter CSS ends here */
+
+/* Services CSS starts here */
+.icon-box
+{
+  margin-top:30px;
+}
+.services .icon 
+{
+  display: flex;
+  justify-content: center;
+}
+.services .icon i 
+{
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+  background: #fff;
+  border-radius: 50%;
+  color: #ff4f5a;
+  text-align:center;
+  font-size: 40px;
+  padding-top: 20px;
+  box-shadow: 0px 0 25px rgba(0, 0, 0, 0.15);    
+}
+.services .icon i:hover
+{
+  box-shadow: 0px 0 30px rgba(255, 79, 90, 0.5);
+}
+.services .title 
+{
+  font-weight: 600;
+  text-align:center;
+  padding-bottom: 15px;
+}
+.services .description 
+{
+  font-size: 15px;
+  text-align:center;
+}
+/* Services CSS ends here */
+
+/* Contact Form CSS starts here */
+.contact .email-form 
+{
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 30px;
+}
+.contact .email-form input 
+{
+  padding: 20px 15px;
+}
+.contact .email-form input, .contact .email-form textarea 
+{
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 15px;
+}
+.form-row .form-group:first-child
+{
+  padding-left:0;
+}
+.form-row .form-group:last-child
+{
+  padding-right:0;
+}
+/* COntact Form CSS ends here */
+
+/* Footer CSS starts here */
+#footer 
+{
+  background: rgba(17,17,17,1);
+  padding: 0 0 30px 0;
+  color: #fff;
+  font-size: 15px;
+}
+#footer .footer-top 
+{
+  background: #000;
+  padding: 60px 0 60px 0;
+}
+#footer .footer-top .footer-info h3 
+{
+  margin: 10px 0 20px 0;
+  font-weight: 700;
+  color:#ff4f5a;
+}
+#footer .footer-top .footer-info p 
+{
+  font-size: 15px;
+  margin-bottom: 25px;
+  color: #fff;
+}
+#footer .footer-top .social-links
+{
+margin-bottom:30px;
+}
+#footer .footer-top .social-links a 
+{
+  display: inline-block;
+  background: #ff4f5a;
+  color: #fff;
+  line-height: 1;
+  padding: 10px 0;
+  margin-right: 5px;
+  border-radius: 50%;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+}
+#footer .footer-top h4 
+{
+  font-weight: 600;
+  color: #ff4f5a;
+  padding-bottom: 15px;
+}
+.contact-details a
+{
+  color:#fff;
+  text-decoration:none;
+}
+.contact-details a:hover
+{
+  color:#ff4f5a;
+}
+/* Footer CSS ends here */
+
+/* Copyright CSS starts here */
+#footer .copyright 
+{
+  text-align: center;
+  padding-top: 30px;
+}
+#footer .credits 
+{
+  padding-top: 10px;
+  text-align: center;
+  color: #fff;
+}
+#footer .credits a
+{
+  color:#ff4f5a;
+  text-decoration:none;
+}
+/* Copyright CSS ends here */
+
+/* Backtotop CSS starts here */
+.back-to-top 
+{
+  position: fixed;
+  display:none;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  right: 15px;
+  bottom: 15px;
+  background: #ff4f5a;
+  color: #fff;
+  z-index: 99999;
+}
+.back-to-top:hover
+{
+  color:#fff;
+}
+.back-to-top i 
+{
+  font-size: 24px;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+/* Backtotop CSS ends here */
